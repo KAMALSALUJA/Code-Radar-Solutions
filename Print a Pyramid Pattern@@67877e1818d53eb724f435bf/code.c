@@ -1,9 +1,12 @@
 #include <stdio.h>
 
-void printPyramid(int n) {
-    for (int i = 1; i <= n; i++) {
+int main() {
+    int N;
+    printf("Enter the number of rows: ");
+    scanf("%d", &N);
+    for (int i = 1; i <= N; i++) {
         // Print spaces
-        for (int j = 1; j <= n - i; j++) {
+        for (int j = 1; j <= N - i; j++) {
             printf(" ");
         }
         // Print stars
@@ -12,12 +15,5 @@ void printPyramid(int n) {
         }
         printf("\n");
     }
-}
-
-int main() {
-    int n;
-    printf("Enter the number of rows: ");
-    scanf("%d", &n);
-    printPyramid(n);
     return 0;
 }
