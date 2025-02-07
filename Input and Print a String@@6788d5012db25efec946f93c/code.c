@@ -6,7 +6,7 @@ int main() {
     //printf("Enter a word: ");
     scanf("%s", word);  // Read a single word (stops at space)
 
-    printf("You entered:%s\n", word);  // Print the word
+    printf("You entered: %s\n", word);  // Print the word
 
     return 0;
 }
