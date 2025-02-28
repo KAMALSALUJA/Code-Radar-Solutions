@@ -7,8 +7,8 @@ int isPrime(int num)
            count++;
     }
 if(count ==2)
-        return printf(" %d is a prime number \n", num);
+        return 1;//printf(" %d is a prime number \n", num);
       else
-      return printf(" %d is not a prime number\n", num);
+      return 0;//printf(" %d is not a prime number\n", num);
    //return 0;
 }
