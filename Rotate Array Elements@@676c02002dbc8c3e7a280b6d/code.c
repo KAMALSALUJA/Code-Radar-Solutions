@@ -3,7 +3,7 @@
 // Function to left rotate array by d positions
 // Repeat the rotation d times
 void rotateArr(int arr[], int n, int d) {
-    for (int i = 0; i < d-1; i++) {
+    for (int i = 0; i < (d-1)); i++) {
       
         // Left rotate the array by one position
         int first = arr[0];
