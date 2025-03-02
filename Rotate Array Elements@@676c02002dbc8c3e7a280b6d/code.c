@@ -6,7 +6,7 @@ void rotateArr(int arr[], int n, int d) {
     for (int i = 0; i <d; i++) {
       
         // Left rotate the array by one position
-        int first = arr[j];
+        int first = arr[n];
         for (int j = 0; j < n - 1; j++) {
              arr[j + 1]=arr[j];
         }
