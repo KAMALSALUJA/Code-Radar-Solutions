@@ -15,7 +15,7 @@ void rotateArr(int arr[], int n, int d) {
 }
 
 int main() {
-    int arr[] = { 1, 2, 3, 4, 5, 6 };
+    int arr[] = { 5,1, 2, 3, 4, 5};
     int d = 2;
     int n = sizeof(arr) / sizeof(arr[0]);
 
