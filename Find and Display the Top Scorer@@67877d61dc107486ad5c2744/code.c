@@ -29,7 +29,7 @@ int main() {
     }
 
     // Display details of the top scorer
-    printf("\nTop Scorer:");
+    printf("\nTop Scorer: ");
     printf("Roll Number: %d, Name: %s, Marks: %.2f\n", 
            topScorer.rollNumber, topScorer.name, topScorer.marks);
 
