@@ -28,4 +28,4 @@ int main() {
     for (int i = 0; i < N; i++) {
         printf("Roll Number: %d, Name: %s, Marks: %.1f\n", 
                students[i].rollNumber, students[i].name, students[i].marks);
-    }
+    }}
