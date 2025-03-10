@@ -12,13 +12,13 @@ int main() {
     int N;
 
     // Taking input for number of students
-    //printf("Enter the number of students: ");
+    printf("Enter the number of students: ");
     scanf("%d", &N);
 
     struct Student students[N], topScorer;
 
     // Input details for each student
-    //printf("Enter Roll Number, Name, and Marks for each student:\n");
+    printf("Enter Roll Number, Name, and Marks for each student:\n");
     for (int i = 0; i < N; i++) {
         scanf("%d %s %f", &students[i].rollNumber, students[i].name, &students[i].marks);
         
