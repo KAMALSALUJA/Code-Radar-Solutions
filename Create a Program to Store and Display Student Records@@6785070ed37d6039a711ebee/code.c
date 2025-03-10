@@ -18,7 +18,7 @@ int main() {
     
     // Input details for each student
     for (int i = 0; i < N; i++) {
-        printf("Enter Roll Number, Name, and Marks for student %d: ", i + 1);
+        //printf("Enter Roll Number, Name, and Marks for student %d: ", i + 1);
         scanf("%d %s %f", &students[i].rollNumber, students[i].name, &students[i].marks);
     }
     
