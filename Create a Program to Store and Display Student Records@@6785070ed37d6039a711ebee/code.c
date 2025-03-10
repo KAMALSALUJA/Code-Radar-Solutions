@@ -1,4 +1,4 @@
-\#include <stdio.h>
+#include <stdio.h>
 
 // Define a structure for Student
 struct Student {
