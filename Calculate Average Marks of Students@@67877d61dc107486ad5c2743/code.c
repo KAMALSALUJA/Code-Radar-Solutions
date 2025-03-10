@@ -28,7 +28,7 @@ int main() {
             total = students[i].marks;
         }
         average=total/N;
-    }
+
 
     // Display details of the top scorer
     //printf("Top Scorer: ");
