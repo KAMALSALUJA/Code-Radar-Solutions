@@ -11,7 +11,7 @@ int main() {
     int N;
     
     // Taking input for number of students
-    printf("Enter the number of students: ");
+    //printf("Enter the number of students: ");
     scanf("%d", &N);
     
     struct Student students[N]; // Array of structures
