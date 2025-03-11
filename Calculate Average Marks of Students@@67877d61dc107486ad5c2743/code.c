@@ -16,7 +16,8 @@ int main() {
     scanf("%d", &N);
 
     struct Student students[N];
-    int total=0, average;
+    int total=0;
+    float average;
 
     // Input details for each student
     //printf("Enter Roll Number, Name, and Marks for each student:\n");
