@@ -18,7 +18,7 @@ struct Subscription subs[n];
 int basicCount = 0, standardCount = 0, premiumCount = 0;
 
 float basicRevenue = 0, standardRevenue = 0, premiumRevenue = 0; for (int i = 0; i < n; i++) {
-scanf("%s %s %f", &subs[i].userName, &subs[i].subscriptionType, &Csubs[i].cost); 
+scanf("%s %s %f", &subs[i].userName, &subs[i].subscriptionType, &subs[i].cost); 
 if (strcmp(subs[i].subscriptionType, "Basic") == 0) {
 basicCount++;
 
