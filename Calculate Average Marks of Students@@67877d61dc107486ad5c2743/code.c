@@ -32,7 +32,7 @@ int main() {
 
 
     // Display details of the top scorer
-    printf("Average marks:");
+    printf("Average marks: ");
     printf("%.2f", average);
 
     return 0;
