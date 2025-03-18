@@ -17,7 +17,7 @@ void concatenate(char str1[], char str2[], char result[]) {
     }
 
     // Null-terminate the result
-    result[i] = '\0';
+    //result[i] = '\0';
 }
 
 int main() {
